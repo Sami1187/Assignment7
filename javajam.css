@@ -1,7 +1,4 @@
 * { box-sizing: border-box; }
-/* Generic CSS and Desktop */
-/*header, nav, main, footer { display: block; }*/
-
 body {
     /* fonts used as given in textbook */
     font-family: Arial, verdana, sans-serif;
@@ -11,7 +8,6 @@ body {
     background-size: cover;
     
 }
-
 
 header
 {
@@ -170,42 +166,13 @@ p {
     text-shadow: 3px 3px 5px #000000;
 }
 
-
-
-
-       /*img { padding: 0px 10px }
-
-       nav { font-weight: bold;
-        text-align: center;
-        font-size: 1.5em;
-        padding-top: 10px;
-        float: left;
-        width: 200px; }*/
-  
-
- 
-
-
 .floatleft { float: left; padding: 0px 20px 20px 0px; }
 
-#nav-bar{
-    width:200px;
-    margin-right: 0px;
-    margin-left : 0px;
- }
 
- 
- #menu_main { padding: 0px 0px 2em 0px;
-        margin-left: 200px;
-        background-color: #FCEBB6;
-        color: #221811;
-        margin-top: -150px;
-    }
-    #mobile { display: none; }
-    #desktop { display: inline; }
     
+
     @media only screen and (max-width: 1024px) {
-    }
+    
     body {
     
     font-family: Arial, verdana, sans-serif;
@@ -289,15 +256,15 @@ nav ul { margin:0px;
             margin:0px;
             font-size: 90%;
         }
-
+    }
 @media only screen and (max-width: 768px) {
-        }
+        
 
         header
         {
-            line-height: 128px;
+            line-height: 70px;
             background-color: #5c6362;
-            background-image: url("javajammini.jpg"); 
+            /*background-image: url("cup.jpg");*/
             
         }
         h1{
@@ -345,3 +312,4 @@ nav ul { margin:0px;
                     }
 #mobile { display: inline; }
 #desktop { display: none; }
+                }
